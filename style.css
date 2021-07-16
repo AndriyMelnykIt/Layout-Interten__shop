@@ -1,0 +1,596 @@
+/*reset css style*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    background-color: silver;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+@font-face {
+    font-family: 'Gilroy Regular';
+    src: url('fonts/Gilroy-Regular.eot');
+    src: url('fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Gilroy-Regular.woff') format('woff'),
+    url('fonts/Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy Bold';
+    src: url('fonts/Gilroy-Bold.eot');
+    src: url('fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Gilroy-Bold.woff') format('woff'),
+    url('fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy Extra Bold';
+    src: url('fonts/Gilroy-ExtraBold.eot');
+    src: url('fonts/Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Gilroy-ExtraBold.woff') format('woff'),
+    url('fonts/Gilroy-ExtraBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body {
+    font-family: 'Gilroy-Regular', sans-serif;
+}
+
+
+.nav {
+    padding: 21px 0 56px 0;
+}
+
+.container {
+    max-width: 1430px;
+    margin: 0 auto;
+}
+
+.nav__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__nav {
+    display: flex;
+    align-items: center;
+}
+
+.item-menu {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav__logo {
+    width: 160px;
+    font-size: 30px;
+    object-fit: contain;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav--logo {
+    font-weight: bold;
+}
+
+.nav__list {
+    font-family: Gilroy Regular;
+    font-size: 13px;
+    font-weight: normal;
+    margin-left: 11px;
+}
+
+.search {
+    border: none;
+    outline: none;
+}
+
+.nav__icon {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+}
+
+.phone {
+    font-family: Gilroy Bold;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    color: #282828;
+}
+
+.nav__item {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+}
+
+.nav__input {
+
+}
+
+.nav__icon:first-child {
+    margin-left: 0;
+}
+
+.nav__cart-link {
+    display: inline-block;
+    position: relative;
+}
+
+.nav__cart-number {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    line-height: 20px;
+    background-color: #282828;
+}
+
+.wrapper {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.header__row {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__arrow {
+    margin-top: -38px;
+}
+
+.header__content {
+    position: absolute;
+    left: 0;
+    top: 96px;
+    width: 446px;
+    height: 300px;
+    /*transform: translate(-50%);*/
+}
+
+.header__title {
+    width: 446px;
+    margin: 0;
+    font-family: Gilroy Extra Bold;
+    font-size: 70px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+
+}
+
+.header__btn {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 223px;
+    margin: 49px 156px 0 1px;
+    padding: 21px 51px 20px 34px;
+    border: solid 2px #282828;
+    background-color: #ffffff;
+}
+
+.button {
+    font-family: Gilroy Regular;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.header__shape {
+    width: 14px;
+    height: 15px;
+    margin: 0 0 2px 18px;
+}
+
+.header__text {
+
+}
+
+.arrow {
+    display: flex;
+    justify-content: space-between;
+    margin-right: -105px;
+}
+
+.arrow__item {
+    display: flex;
+    align-items: center;
+    margin-right: -13px;
+    width: 59px;
+}
+
+.arrow-desc {
+    font-family: Gilroy Bold;
+    font-size: 15px;
+}
+
+.arrow__right {
+    margin-left: 15px;
+}
+
+.sl__slide{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.banner__product {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 196px;
+}
+
+.product-left {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.banner__text {
+    position: absolute;
+    top: 77px;
+    left: 284px;
+}
+
+.banner_action {
+    width: 45px;
+    height: 20px;
+    padding: 4px 8px 4px 6px;
+    background-color: #e6e6e6;
+}
+
+.action {
+    width: 31px;
+    height: 12px;
+    font-family: Gilroy;
+    font-size: 13px;
+    font-weight: normal;
+    text-align: left;
+}
+
+.title {
+    font-family: 'Gilroy Bold';
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.description {
+    font-family: Gilroy;
+    width: 172px;
+    margin-top: 15px;
+    font-size: 13px;
+    font-weight: normal
+}
+
+.price {
+    font-family: 'Gilroy Bold';
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 18px;
+}
+
+.product-bottom {
+    margin-top: 217px;
+}
+
+.product__text {
+    display: flex;
+    align-items: flex-start;
+}
+
+.banner_discount {
+    width: 57px;
+    height: 20px;
+    padding: 4px 7px 5px 6px;
+    background-color: #e6e6e6;
+    margin-top: 27px;
+}
+
+.action_discount {
+    width: 44px;
+    height: 11px;
+    font-family: Gilroy;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.product__item {
+    margin-left: 23px;
+}
+
+.description__title {
+    font-family: Gilroy;
+    font-size: 13px;
+    font-weight: normal;
+    color: #282828;
+    margin-top: 15px;
+}
+
+.discount {
+    /*display: inline-block;*/
+    width: 85px;
+    height: 14px;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 14px;
+    color: #a4a4a4;
+}
+
+.banner_novelty {
+    width: 64px;
+    height: 20px;
+    padding: 4px 7px 5px 6px;
+    background-color: #e6e6e6;
+    margin-top: 27px;
+}
+
+.action_novelty {
+    width: 51px;
+    height: 11px;
+    font-family: Gilroy;
+    font-size: 13px;
+}
+
+.product__title {
+    opacity: 0.2;
+    font-family: Gilroy;
+    font-size: 70px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: left;
+    margin-bottom: 80px;
+}
+
+.banner_sales {
+    width: 96px;
+    height: 20px;
+    padding: 4px 4px 3px 6px;
+    background-color: #e6e6e6;
+    margin-top: 27px;
+}
+
+.action_sales {
+    width: 86px;
+    height: 13px;
+    font-family: Gilroy;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.product-image {
+    width: 445px;
+    height: 605px;
+    object-fit: contain;
+    margin-top: 75px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 97px;
+    margin-top: 90px;
+}
+
+.grid__title {
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.43;
+    margin-bottom: 26px;
+    color: #282828;
+}
+
+.grid-item {
+    line-height: 2.14;
+}
+
+.footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 53px;
+}
+
+.footer__logo, .footer__item {
+    display: flex;
+    align-items: flex-end;
+    font-size: 13px;
+    color: #717171;
+    margin-left: 6px;
+}
+
+ul > li > a {
+    color: #717171;
+}
+
+
+.nav__logo-mobi {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .nav__row {
+        justify-content: initial
+    }
+
+    .nav__item,
+    .phone {
+        display: none;
+    }
+
+    .nav__logo {
+        display: none;
+    }
+
+    .nav__logo-mobi {
+        display: block;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .header__row {
+        justify-content: initial;
+    }
+
+    .footer_wrapper {
+        justify-content: flex-start;
+    }
+
+    .banner__product {
+        display: initial;
+    }
+
+    .product-left {
+        display: inline-block;
+        margin-top: 70px;
+    }
+
+    .product-bottom {
+        margin-top: 35px;
+    }
+
+    .grid {
+        display: initial;
+    }
+
+    .grid div {
+        margin-top: 50px;
+    }
+
+    .product__title {
+        margin-top: 50px;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .nav__row {
+        justify-content: initial
+    }
+
+    .nav__item,
+    .phone {
+        display: none;
+    }
+
+    .nav__logo {
+        display: none;
+    }
+
+    .nav__logo-mobi {
+        display: block;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .header__row {
+        justify-content: initial;
+    }
+
+    .footer_wrapper {
+        justify-content: flex-start;
+    }
+
+    .banner__product {
+        display: initial;
+    }
+
+    .product-left {
+        display: inline-block;
+        margin-top: 70px;
+    }
+
+    .product-bottom {
+        margin-top: 35px;
+    }
+
+    .grid {
+        display: initial;
+    }
+
+    .grid div {
+        margin-top: 50px;
+    }
+
+    .product__title {
+        margin-top: 50px;
+    }
+}
