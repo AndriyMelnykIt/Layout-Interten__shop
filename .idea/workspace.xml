@@ -2,58 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5273351-22cd-43b2-8a98-b7c6d2a1d32f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Layout.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/9925f5468d3b0343c9434891a4912d1c3205b19a/style.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Gilroy-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Gilroy-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Gilroy-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Gilroy-ExtraBold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Gilroy-ExtraBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Gilroy-ExtraBold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Gilroy-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Gilroy-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Gilroy-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icon 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icon 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icon 3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icon 4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/img-0764.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/img-0944.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/img-1520.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/img-1543.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/img-1622.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/img-1650.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/shape-1-copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/shape-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick/.sass-cache/e04108af72c5035a6d11df4f83dcb722059e95c3/slick-theme.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick/.sass-cache/e04108af72c5035a6d11df4f83dcb722059e95c3/slick.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick/config.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick/fonts/slick.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick/fonts/slick.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick/fonts/slick.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick/fonts/slick.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick/slick-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick/slick-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick/slick-theme.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick/slick-theme.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick/slick.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick/slick.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick/slick.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick/slick.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick/slick.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick/slick.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/9925f5468d3b0343c9434891a4912d1c3205b19a/style.scssc" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +67,7 @@
       <workItem from="1626200627042" duration="8240000" />
       <workItem from="1626284988050" duration="617000" />
       <workItem from="1626371852991" duration="4416000" />
-      <workItem from="1626412120476" duration="417000" />
+      <workItem from="1626412120476" duration="1261000" />
     </task>
     <servers />
   </component>
